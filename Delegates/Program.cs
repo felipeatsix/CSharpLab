@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Delegates
 {
@@ -6,15 +7,14 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
-            var processor = new PhotoProcessor();
-            var filters = new PhotoFilters();
+            var blog = new Blog("Learning C#", "Hi this is my blog...");
+            var reviewer = new BlogReviewer();
+            var publisher = new BlogPublisher();
 
-            Action<Photo> filterHandler = filters.ApplyBrightness;
-            filterHandler += filters.ApplyContrast;
-            filterHandler += filters.ApplyResize;
-            filterHandler += filters.ApplyShadow;
+            Action<Blog> blogPublishHandler = reviewer.BlogTheme;
+            blogPublishHandler += reviewer.Formatting;
 
-            processor.Process(@"c:\users\felipe\images\test.png", filterHandler);
+            publisher.Publish(blog, blogPublishHandler);
         }
     }
 }
