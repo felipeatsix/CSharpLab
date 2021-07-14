@@ -6,8 +6,11 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            var build = new DbBuilder("csn_dba", new FileLogger());
-            build.Create();
+            var useFileLogger = new DbBuilder("my_database", new FileLogger());
+            var useConsoleLogger = new DbBuilder("my_database", new ConsoleLogger());
+            
+            useFileLogger.Create();
+            useConsoleLogger.Create();
         }
     }
 }

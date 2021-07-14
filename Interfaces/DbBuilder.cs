@@ -15,7 +15,7 @@ namespace Interfaces
 
         public void Create()
         {
-            if (_dbName == "csn_dba")
+            if (_dbName == "my_database")
                 _logger.LogMessage(MessageType.LogMessage, "Creating DB " + _dbName);
             else
                 _logger.ErrorMessage(MessageType.ErrorMessage, "Failed to create db " + _dbName);
