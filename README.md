@@ -1,2 +1,4 @@
 # CSharpLab
-As I'm learning C# I'll be publicly sharing some of my own exercises here.
+The purpose of this repository is to contain basic starting points of some of the main C# language concepts separated by topics.
+I hope this can help beginner and intermediate level people who are interested on learning the language.
+I'll be pushing more samples regularly.
