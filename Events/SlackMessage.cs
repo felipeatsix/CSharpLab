@@ -2,7 +2,7 @@
 
 namespace Events
 {
-    public class SlackService
+    public class SlackMessage
     {
         public void OnDocumentationSent(object source, DocumentationPublishedHandler e)
         {

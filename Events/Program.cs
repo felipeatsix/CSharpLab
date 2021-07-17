@@ -8,7 +8,7 @@ namespace Events
         {
             var document = new Documentation("Title", "some documentation text blablabla...");
             var publisher = new DocumentationPublisher();
-            var slackMessage = new SlackService();
+            var slackMessage = new SlackMessage();
 
             publisher.DocumentationPublished = slackMessage.OnDocumentationSent;
 
