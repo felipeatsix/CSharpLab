@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Delegates
 {
@@ -11,10 +10,10 @@ namespace Delegates
             var reviewer = new BlogReviewer();
             var publisher = new BlogPublisher();
 
-            Action<Blog> blogPublishHandler = reviewer.BlogTheme;
-            blogPublishHandler += reviewer.Formatting;
+            Action<Blog> blogReviewHandler = reviewer.BlogTheme;
+            blogReviewHandler += reviewer.Formatting;
 
-            publisher.Publish(blog, blogPublishHandler);
+            publisher.Publish(blog, blogReviewHandler);
         }
     }
 }
