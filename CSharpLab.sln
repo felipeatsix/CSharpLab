@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{26C8CD27-20D2-4534-9BC9-964B85DA77B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicClass", "BasicClass\BasicClass.csproj", "{A9644C72-1F8C-4811-B359-3FDDD8DC1AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicClass", "BasicClass\BasicClass.csproj", "{A9644C72-1F8C-4811-B359-3FDDD8DC1AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{C7743524-EABA-449B-BAF6-7A0281F41458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexers.csproj", "{C7743524-EABA-449B-BAF6-7A0281F41458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{230C0D27-6159-4BE4-8267-6C7C32C353B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{230C0D27-6159-4BE4-8267-6C7C32C353B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{D266310B-39E4-46CB-9DF3-922DD12EB717}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{230C0D27-6159-4BE4-8267-6C7C32C353B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230C0D27-6159-4BE4-8267-6C7C32C353B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{230C0D27-6159-4BE4-8267-6C7C32C353B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D266310B-39E4-46CB-9DF3-922DD12EB717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D266310B-39E4-46CB-9DF3-922DD12EB717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D266310B-39E4-46CB-9DF3-922DD12EB717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D266310B-39E4-46CB-9DF3-922DD12EB717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
