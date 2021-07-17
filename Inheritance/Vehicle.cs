@@ -13,7 +13,7 @@ namespace Inheritance
         public string Color { get; protected set; }
         public double Height { get; protected set; }
         public double Width { get; protected set; }
-        public int Wheel { get; set; }
+        public int Wheel { get; protected set; }
 
         public void StartEngine()
         {
