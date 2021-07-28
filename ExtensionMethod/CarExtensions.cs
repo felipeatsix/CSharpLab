@@ -4,7 +4,6 @@ using System;
 
 namespace ExtensionMethod
 
-
 {
     public static class CarExtensions
     {
