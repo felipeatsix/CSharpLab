@@ -1,5 +1,6 @@
 ﻿namespace Events
 {
+    // A simple class with twi properties.
     public class Documentation
     {
         public Documentation(string title, string text)

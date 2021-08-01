@@ -10,7 +10,7 @@ namespace Events
             var publisher = new DocumentationPublisher();
             var slackMessage = new SlackMessage();
 
-            publisher.DocumentationPublished = slackMessage.OnDocumentationSent;
+            publisher.DocumentationPublished = slackMessage.OnDocumentationPublished;
 
             publisher.Publish(document);
         }
