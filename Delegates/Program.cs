@@ -10,8 +10,7 @@ namespace Delegates
             var reviewer = new BlogReviewer();
             var publisher = new BlogPublisher();
 
-            Action<Blog> blogReviewHandler = reviewer.BlogTheme;
-            blogReviewHandler += reviewer.Formatting;
+            Action<Blog> blogReviewHandler = reviewer.TextFormatting;
 
             publisher.Publish(blog, blogReviewHandler);
         }

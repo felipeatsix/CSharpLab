@@ -4,14 +4,9 @@ namespace Delegates
 {
     public class BlogReviewer
     {
-        public void Formatting(Blog blog)
+        public void TextFormatting(Blog blog)
         {
-            Console.WriteLine("Applying blog formatting");
-        }
-
-        public void BlogTheme(Blog blog)
-        {
-            Console.WriteLine("Apply blog theme");
+            Console.WriteLine("Applying text formatting");
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Delegates
         public void Publish(Blog blog, Action<Blog> blogReviewHandler)
         {
             blogReviewHandler(blog);
-            blog.Publish();
+            Console.WriteLine("Publishing blog: {0}", blog.Title);
         }
     }
 }
