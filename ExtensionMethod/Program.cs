@@ -1,13 +1,12 @@
-﻿// What are Extension Methods?
-
-// Allows us to add methods to an existing class without:
-// 1. Changing its source code.
-// 2. Creating a new class that inherits from it.
-
-using System;
+﻿using System;
 
 namespace ExtensionMethod
 {
+    // What are Extension Methods?
+
+    // Allows us to add methods to an existing class without:
+    // 1. Changing its source code.
+    // 2. Creating a new class that inherits from it.
     class Program
     {
         static void Main(string[] args)
