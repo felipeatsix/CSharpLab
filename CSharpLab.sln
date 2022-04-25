@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32319.34
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{26C8CD27-20D2-4534-9BC9-964B85DA77B9}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{A9695E33-08AB-40DF-B408-C90281CDB332}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{782D8F1B-C155-449E-97E5-59AF9CAD4F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregationVsComposition", "..\..\AggregationVsComposition\AggregationVsComposition.csproj", "{810DA8EB-9145-4599-AE9C-5DA1D8271C7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{782D8F1B-C155-449E-97E5-59AF9CAD4F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{782D8F1B-C155-449E-97E5-59AF9CAD4F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{782D8F1B-C155-449E-97E5-59AF9CAD4F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810DA8EB-9145-4599-AE9C-5DA1D8271C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810DA8EB-9145-4599-AE9C-5DA1D8271C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810DA8EB-9145-4599-AE9C-5DA1D8271C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810DA8EB-9145-4599-AE9C-5DA1D8271C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
