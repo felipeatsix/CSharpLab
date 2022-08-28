@@ -8,7 +8,6 @@ namespace BasicClass
         {
             Birthday = birthday;
         }
-
         public DateTime Birthday { get; protected set; }
 
         public int Age

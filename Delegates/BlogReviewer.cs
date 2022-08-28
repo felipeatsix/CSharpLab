@@ -9,4 +9,12 @@ namespace Delegates
             Console.WriteLine("Applying text formatting");
         }
     }
+
+    public class BlogRating
+    {
+        public void Rate(Blog blog)
+        {
+            Console.WriteLine("Applying blog rate");
+        }
+    }
 }

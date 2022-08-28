@@ -6,7 +6,7 @@ namespace Events
     {
         static void Main(string[] args)
         {
-            var document = new Documentation("Title", "some documentation text blablabla...");
+            var document = new Documentation("Title", "some documentation text...");
             var publisher = new DocumentationPublisher();
             var slackMessage = new SlackMessage();
 

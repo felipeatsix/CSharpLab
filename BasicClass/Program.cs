@@ -7,7 +7,7 @@ namespace BasicClass
         static void Main(string[] args)
         {
             var felipe = new Human(new DateTime(1989, 03, 27));
-            Console.WriteLine(felipe.Age);
+            Console.WriteLine($"Felipe's birthday is {felipe.Birthday} and Felipe's age is {felipe.Age}");
         }
     }
 }
